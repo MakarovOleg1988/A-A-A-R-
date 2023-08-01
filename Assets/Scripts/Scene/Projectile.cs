@@ -6,8 +6,8 @@ namespace AAAR
     {
         private void Start()
         {
-                _player = GameObject.FindGameObjectWithTag("Player").transform;
-                _target = new Vector3(_player.position.x, _player.position.y, _player.position.z);
+             _player = GameObject.FindGameObjectWithTag("Player").transform;
+             _target = new Vector3(_player.position.x, _player.position.y, _player.position.z);
         }
 
         private void Update()
